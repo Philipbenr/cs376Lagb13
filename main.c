@@ -9,6 +9,8 @@
  *
  */
 #include "robot.h"
+#include <ctype.h>
+#include <stdlib.h>
 
 /**
  * main()
@@ -21,6 +23,10 @@
  */
 int main(int argc, const char * argv[])
 {
+  if(argc == 2) {
+    int to_print = atoi(argv[1]);
+    printf("You typed: %d\n", to_print);
+  }
   robotPrintAscii();
   dalekPrintAscii();
   robotPrintMessage();
