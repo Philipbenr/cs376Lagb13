@@ -41,10 +41,6 @@ void robotPrintAscii(void)
 	 "%s     [@_@]   \n"
 	 "%s  \\_/|___|\\_/ \n"
 	 "%s     d   b   \n",blank, blank, blank, blank);
-<<<<<<< HEAD
-=======
-
->>>>>>> ecf499392b3b8f36b0034bc2c644fcf7666c35db
   blank = blank - 10;
 }
 }
